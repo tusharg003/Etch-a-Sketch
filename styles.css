@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 120px !important;
+}
+
+p {
+    margin: 0px !important;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+#grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid rgb(96, 96, 96);
+}
+
+.cell {
+    border: 1px solid rgba(208, 208, 208, 0.203);
+}
+
+#setColor {
+    position: relative;
+    width: 120px;
+}
+
+#setColor input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.pressed {
+    background-color: rgb(214, 140, 1) !important;
+}
